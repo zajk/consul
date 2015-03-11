@@ -22,3 +22,8 @@ variable "servers" {
     default = "3"
     description = "The number of Consul servers to launch."
 }
+
+variable "type" {
+    default = "t1.micro"
+    description = "Type of instance"
+}
